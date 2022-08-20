@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MayorEdad">
+
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_coche"
+        android:id="@+id/imgCoche"
+        />
+
+    <TextView
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:layout_marginLeft="50sp"
+        android:layout_below="@+id/imgCoche"
+        android:textSize="15sp"
+        android:id="@+id/txtNumM1"
+        />
+
+    <TextView
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="20sp"
+        android:layout_alignLeft="@+id/txtNumM1"
+        android:layout_marginLeft="60sp"
+        android:gravity="center"
+        android:layout_below="@+id/imgCoche"
+        android:text="*"
+        android:textSize="15sp"
+        android:id="@+id/lblMulti"
+        />
+
+    <TextView
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/lblMulti"
+        android:layout_marginLeft="60sp"
+        android:layout_below="@+id/imgCoche"
+        android:textSize="15sp"
+        android:id="@+id/txtNumM2"
+        />
+
+    <TextView
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/txtNumM2"
+        android:layout_marginLeft="60sp"
+        android:layout_below="@+id/imgCoche"
+        android:text="="
+        android:textSize="15sp"
+        android:id="@+id/lblIgualM"
+        />
+
+    <TextView
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/lblIgualM"
+        android:layout_marginLeft="60sp"
+        android:layout_below="@+id/imgCoche"
+        android:text=""
+        android:textSize="15sp"
+        android:id="@+id/txtResultadoM"
+        />
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtResultadoM"
+        android:layout_marginTop="40sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtMsgMulti"
+        />
+
+    <Button
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:text="X"
+        android:textSize="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/btnSalirMulti"
+        />
+
+
+</RelativeLayout>

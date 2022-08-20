@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenorEdad">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_biberon"
+        android:id="@+id/imgBiberon"
+        />
+
+    <TextView
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:layout_marginLeft="50sp"
+        android:layout_below="@+id/imgBiberon"
+        android:textSize="15sp"
+        android:id="@+id/txtNum1"
+        />
+
+    <TextView
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="20sp"
+        android:layout_alignLeft="@+id/txtNum1"
+        android:layout_marginLeft="60sp"
+        android:gravity="center"
+        android:layout_below="@+id/imgBiberon"
+        android:text="+"
+        android:textSize="15sp"
+        android:id="@+id/lblSuma"
+        />
+
+    <TextView
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/lblSuma"
+        android:layout_marginLeft="60sp"
+        android:layout_below="@+id/imgBiberon"
+        android:textSize="15sp"
+        android:id="@+id/txtNum2"
+        />
+
+    <TextView
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/txtNum2"
+        android:layout_marginLeft="60sp"
+        android:layout_below="@+id/imgBiberon"
+        android:text="="
+        android:textSize="15sp"
+        android:id="@+id/lblIgual"
+        />
+
+    <TextView
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:layout_alignLeft="@+id/lblIgual"
+        android:layout_marginLeft="60sp"
+        android:layout_below="@+id/imgBiberon"
+        android:text=""
+        android:textSize="15sp"
+        android:id="@+id/txtResultado"
+        />
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtResultado"
+        android:layout_marginTop="40sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtMsgSuma"
+        />
+
+    <Button
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:text="X"
+        android:textSize="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/btnSalirSuma"
+        />
+
+
+
+
+</RelativeLayout>
